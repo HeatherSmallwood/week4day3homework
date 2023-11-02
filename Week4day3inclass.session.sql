@@ -18,7 +18,8 @@ ON customer.customer_id = payment.customer_id
 WHERE payment.amount > 6.99
 ORDER BY payment.amount;
 
--- Answer: Mary Smith, Ida Andrews, Alvin Deloah, Alfredo Acadams, Harold Martino, Peter Menard, Douglas Graf, are the customers who have payments over $6.99 .
+
+-- Answer: Mary Smith(12.95,42.95,85.95, 988.45), Ida Andrews(22.96), Alvin Deloah(41.44), Alfredo Acadams(82.94), Harold Martino(89.99), Peter Menard(175.99,177.99,176.99,179.99,180.99,181.99,182.99, 183.99,184.99), Douglas Graf(927,67), are the customers who have payments over $6.99 .
 
 -- 3. Show all customers names who have made payments over $175(use
 -- subqueries)
